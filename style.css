@@ -1,0 +1,32 @@
+body::before {
+    content: '';
+    display: block;
+    height: 70px;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+#map {
+    width: 100%;
+    min-height: 300px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.h-600 {
+    height: 400px;
+}
+
+.header-part {
+    left: 15%;
+    border-radius: 10px;
+    transform: translateY(50%);
+}
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
